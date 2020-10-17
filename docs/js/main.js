@@ -22,7 +22,10 @@ document.addEventListener('DOMContentLoaded', function() {
     //Para los collapse
     var elems = document.querySelectorAll('.collapsible');
     var instances = M.Collapsible.init(elems);
+
+    //Para los dropdowns
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, {
+        coverTrigger: false
+    });
 });
-
-
-var instance = M.Tabs.init(el, options);
