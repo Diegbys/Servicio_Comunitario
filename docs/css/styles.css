@@ -2,6 +2,20 @@
     display: none !important;
 }
 
+.js .grid__item-img img {
+    display: block !important;
+}
+
+.row-help {
+    display: flex;
+}
+
+@media only screen and (max-width: 992px) {
+    .row-help {
+        display: block;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .logo-oficial {
         width: 100%;

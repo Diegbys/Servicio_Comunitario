@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proyecto Servicio Comunitario</title>
+    <link rel="stylesheet" href="Materialize/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!--BARRA DE NAVEGACIÓN-->
+    <div class="navbar-fixed">
+        <nav class="blue darken-4">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo"><img style="width: 50px; height: 50px; margin-top: 10px; margin-left: 10px;" class="responsive-img left" src="img/Logo Blanco.png" alt=""><span class="hide-on-small-only">Unimar con todos</span></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html"><i class="material-icons left">home</i> Inicio</a></li>
+                    <li><a href="posts.html"><i class="material-icons left">library_books</i> Posts</a></li>
+                    <li><a class="dropdown-trigger" data-target='Valores' href="#"><i class="material-icons left">grade</i> Valores</a></li>
+                    <li><a href="#"><i class="material-icons left">help</i> Ayuda</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!--Desplegable de valores-->
+    <ul id='Valores' class='dropdown-content'>
+        <li><a class="blue-text text-darken-4" href="valoresSociedad.html">En la sociedad</a></li>
+        <li><a class="blue-text text-darken-4" href="valoresPandiemia.html">Frente la pandemia</a></li>
+    </ul>
+
+    <!--BARRA DE NAVEGACIÓN PARA MOBILE-->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html"><i class="blue-text text-darken-4 material-icons left">home</i> Inicio</a></li>
+        <li><a href="posts.html"><i class="blue-text text-darken-4 material-icons left">library_books</i> Posts</a></li>
+        <li><a class="dropdown-trigger" data-target='Valores-mobile' href="#"><i class="blue-text text-darken-4 material-icons left">grade</i> Valores</a></li>
+        <li><a href="#"><i class="blue-text text-darken-4 material-icons left">help</i> Ayuda</a></li>
+    </ul>
+
+    <!--Desplegable de valores MOBILE-->
+    <ul id='Valores-mobile' class='dropdown-content'>
+        <li><a class="blue-text text-darken-4" href="valoresSociedad.html">En la sociedad</a></li>
+        <li><a class="blue-text text-darken-4" href="valoresPandiemia.html">Frente la pandemia</a></li>
+    </ul>
+
+    <!--Desplegable de ayuda-->
+    <ul id="slide-out" class="sidenav sidenav-fixed" style="margin-top: 64px; height: calc(100vh - 64px)">
+        <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+                <li>
+                    <a class="collapsible-header"><i class="material-icons left">android</i>Ingenieros<i class="material-icons right">arrow_drop_down</i></a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li><a class="blue-text text-darken-4" href="aprender_programar.html">Aprender a programar</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+
+
+    <div class="section"></div>
+    <div class="row">
+        <div class="col l9 offset-l3 m12">
+            <!--Cuerpo-->
+            <h3 class="blue-text text-darken-4">Bienvenido al módulo de ayuda<a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only right"><i class="material-icons">menu</i></a></h3>
+
+            <div class="divider"></div>
+            <div class="container">
+                <div class="row row-help">
+                    <div class="col l6 s12 valign-wrapper">
+                        <p>Este módulo está enfocado a ayudar a la sociedad en distintas areas, a la izquierda puede encontrar las divisiones con los diferentes temas que tal vez le interesen</p>
+                    </div>
+                    <div class="col l6 s12">
+                        <img style="width: 100%" src="img/help.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="Materialize/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

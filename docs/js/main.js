@@ -28,4 +28,5 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Dropdown.init(elems, {
         coverTrigger: false
     });
+
 });
