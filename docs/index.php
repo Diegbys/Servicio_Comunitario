@@ -1,3 +1,7 @@
+<?php
+include_once 'php/conexion.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,6 +28,14 @@
                     <li><a href="posts.html"><i class="material-icons left">library_books</i> Posts</a></li>
                     <li><a class="dropdown-trigger" data-target='Valores' href="#"><i class="material-icons left">grade</i> Valores</a></li>
                     <li><a href="ayuda.html"><i class="material-icons left">help</i> Ayuda</a></li>
+                    <?php if (!isset($_SESSION['user'])): ?>
+                    <li><a href="login.php"><i class="material-icons left">person</i>Iniciar sesión</a></li>
+                    <li><a href="crear_usuario.php"><i class="material-icons left">person_add</i>Crear Usuario</a></li>
+                    <?php else: ?>
+                    <li><a href="actividades.php"><i class="material-icons left">library_books</i>Actividades</a></li>
+                    <li><a href="#"><i class="material-icons left">person</i><?php echo $_SESSION['user'] ?> </a></li>
+                    <li><a href="php/cerrar.php"><i class="material-icons left">person_add</i>Cerrar Sesión</a></li>
+                    <?php endif ?>
                 </ul>
             </div>
         </nav>
