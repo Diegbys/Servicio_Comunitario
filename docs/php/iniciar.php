@@ -13,6 +13,7 @@ $resultado = $sentencia->fetch();
 
 if (!$resultado) {
     echo 'No se encontró el usuario';
+    header('location: ../errores.php?error_number=6');
     die();    
 }
 
@@ -23,6 +24,7 @@ if(password_verify($password, $resultado['password'])){
 
 } else {
     echo 'Contraseña incorrecta';
+    header('location: ../errores.php?error_number=7');
     die();
 }
 

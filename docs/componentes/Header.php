@@ -10,6 +10,7 @@ include_once 'php/conexion.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Proyecto Servicio Comunitario</title>
+    <link  rel="icon"   href="img/Logo Blanco.png" type="image/png" />
     <link rel="stylesheet" href="Materialize/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">

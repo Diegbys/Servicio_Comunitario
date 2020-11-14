@@ -13,7 +13,23 @@ $sentencia->execute(array($usuario_nuevo));
 $resultado = $sentencia->fetch();
 
 if ($resultado) {
-    echo 'Existe este usuario';
+    header('location: ../errores.php?error_number=1');
+    die();
+}
+
+
+if (strlen(trim($usuario_nuevo)) < 7) {
+    header('location: ../errores.php?error_number=2');
+    die();
+}
+
+if (strlen(trim($password2)) < 7) {
+    header('location: ../errores.php?error_number=3');
+    die();
+}
+
+if ($usuario_nuevo == "" || $password == "" ) {
+    header('location: ../errores.php?error_number=5');
     die();
 }
 
@@ -31,5 +47,6 @@ if (password_verify($password2, $password)) {
     $sentencia_agregar = null;
     $pdo = null;
 } else {
-    echo 'Las contraseñas deben ser iguales';
+    header('location: ../errores.php?error_number=4');
+
 }
