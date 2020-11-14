@@ -1,6 +1,5 @@
 <?php
 include_once 'componentes/Header.php';
-
 ?>
 <!--Slider-->
 <section class="ElSlider animate__animated animate__fadeInLeft">

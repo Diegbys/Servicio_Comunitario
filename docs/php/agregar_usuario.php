@@ -35,10 +35,10 @@ if ($usuario_nuevo == "" || $password == "" ) {
 
 if (password_verify($password2, $password)) {
 
-    $sql_agregar = 'INSERT INTO users (name, password) VALUES (?,?)';
+    $sql_agregar = 'INSERT INTO users (name, password, rol_id) VALUES (?,?,?)';
     $sentencia_agregar = $pdo->prepare($sql_agregar);
 
-    if ($sentencia_agregar->execute(array($usuario_nuevo, $password))) {
+    if ($sentencia_agregar->execute(array($usuario_nuevo, $password, 1))) {
         header('location: ../index.php');
     } else {
         echo 'No se agregó con exito';

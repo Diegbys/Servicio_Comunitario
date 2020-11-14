@@ -20,6 +20,7 @@ if (!$resultado) {
 if(password_verify($password, $resultado['password'])){
    $_SESSION['user'] = $username;
    $_SESSION['id'] = $resultado['id'];
+   $_SESSION['rol_id'] = $resultado['rol_id'];
    header('location: ../index.php');
 
 } else {

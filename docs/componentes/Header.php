@@ -10,7 +10,7 @@ include_once 'php/conexion.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Proyecto Servicio Comunitario</title>
-    <link  rel="icon"   href="img/Logo Blanco.png" type="image/png" />
+    <link rel="icon" href="img/Logo Blanco.png" type="image/png" />
     <link rel="stylesheet" href="Materialize/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
@@ -34,7 +34,11 @@ include_once 'php/conexion.php';
                         <li><a href="crear_usuario.php"><i class="material-icons left">person_add</i>Crear Usuario</a></li>
                     <?php else : ?>
                         <li><a href="actividades.php"><i class="material-icons left">library_books</i>Actividades</a></li>
-                        <li><a href="#"><i class="material-icons left">person</i><?php echo $_SESSION['user'] ?> </a></li>
+                        <?php if ($_SESSION['rol_id'] == 2) : ?>
+                            <li><a href="profesor.php"><i class="material-icons left">person</i><?php echo $_SESSION['user'] ?> </a></li>
+                        <?php else : ?>
+                            <li><a href="#"><i class="material-icons left">person</i><?php echo $_SESSION['user'] ?> </a></li>
+                        <?php endif ?>
                         <li><a href="php/cerrar.php"><i class="material-icons left">exit_to_app</i>Cerrar Sesión</a></li>
                     <?php endif ?>
                 </ul>
