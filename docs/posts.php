@@ -11,6 +11,52 @@ include_once 'componentes/Header.php';
 
 <div class="section"></div>
 
+<!--POST DEL DÍA INTERNACIONAL DEL NIÑO-->
+<div class="row container">
+    <div class="col s12 m12">
+        <div class="card">
+            <div class="card-image">
+                <img style="height: 200px;" src="img/dia_in_niño_1.jpg">
+            </div>
+            <div class="card-content" style="padding: 0">
+                <ul class="collapsible" style="margin: 0">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons blue-text text-darken-4">priority_high</i>Día internacional del niño<i class="material-icons right">expand_more</i> </div>
+                        <div class="collapsible-body">
+                            <p>
+                                <a href="dia_In_niño.html">Leer más.</a>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--POST DEL DÍA INTERNACIONAL DEL HOMBRE-->
+<div class="row container">
+    <div class="col s12 m12">
+        <div class="card">
+            <div class="card-image">
+                <img style="height: 200px;" src="img/dia_hombre_1.jpg">
+            </div>
+            <div class="card-content" style="padding: 0">
+                <ul class="collapsible" style="margin: 0">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons blue-text text-darken-4">priority_high</i>Día internacional del hombre<i class="material-icons right">expand_more</i> </div>
+                        <div class="collapsible-body">
+                            <p>
+                                <a href="dia_In_hombre.html">Leer más.</a>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!--POST DEL CANCER DE MAMA-->
 <div class="row container">
     <div class="col s12 m12">
