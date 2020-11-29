@@ -16,7 +16,7 @@ include_once 'componentes/Header.php';
     <div class="col s12 m12">
         <div class="card">
             <div class="card-image">
-                <img style="height: 200px;" src="img/dia_in_niño_1.jpg">
+                <img style="height: 200px;" src="img/niño1.jpg">
             </div>
             <div class="card-content" style="padding: 0">
                 <ul class="collapsible" style="margin: 0">

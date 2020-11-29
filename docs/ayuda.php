@@ -13,7 +13,16 @@ include_once 'componentes/Header.php';
                 <a class="collapsible-header"><i class="material-icons left">android</i>Ingenieros<i class="material-icons right">arrow_drop_down</i></a>
                 <div class="collapsible-body">
                     <ul>
-                        <li><a class="blue-text text-darken-4" href="aprender_programar.html">Aprender a programar</a></li>
+                        <li><a class="blue-text text-darken-4" href="aprender_programar.php">Aprender a programar</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a class="collapsible-header"><i class="material-icons left">local_hospital</i>Pandemia<i class="material-icons right">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a class="blue-text text-darken-4" href="oportunidades_de_trabajo_estudiantes.php">Oportunidades de trabajo</a></li>
+                        <li><a class="blue-text text-darken-4" href="mascarilla.php">Uso adecuado de la mascarilla</a></li>
                     </ul>
                 </div>
             </li>
