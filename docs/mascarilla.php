@@ -55,24 +55,35 @@ include_once 'componentes/Header.php';
         <h5>Cómo ponerse una mascarilla correctamente</h5>
         <div class="section"></div>
         <ul class="collection">
-            <li class="collection-item">1.	Lávese las manos con agua y jabón o desinfectante para manos antes de tocar la mascarilla.</li>
-            <li class="collection-item">2.	Retire una máscara de la caja y asegúrese de que no haya rasgaduras o agujeros obvios en ninguno de los lados de la máscara.</li>
-            <li class="collection-item">3.	Determina qué lado de la máscara es la parte superior. El lado de la máscara que tiene un borde rígido y flexible es la parte superior y está diseñado para adaptarse a la forma de su nariz.</li>
-            <li class="collection-item">4.	Determina qué lado de la máscara es el frente. El lado de color de la máscara suele ser el frente y debe mirar hacia afuera, mientras que el lado blanco toca su cara.</li>
-            <li class="collection-item">5.	Siga las instrucciones a continuación para el tipo de máscara que está utilizando. </br>
+            <li class="collection-item">1. Lávese las manos con agua y jabón o desinfectante para manos antes de tocar la mascarilla.</li>
+            <li class="collection-item">2. Retire una máscara de la caja y asegúrese de que no haya rasgaduras o agujeros obvios en ninguno de los lados de la máscara.</li>
+            <li class="collection-item">3. Determina qué lado de la máscara es la parte superior. El lado de la máscara que tiene un borde rígido y flexible es la parte superior y está diseñado para adaptarse a la forma de su nariz.</li>
+            <li class="collection-item">4. Determina qué lado de la máscara es el frente. El lado de color de la máscara suele ser el frente y debe mirar hacia afuera, mientras que el lado blanco toca su cara.</li>
+            <li class="collection-item">5. Siga las instrucciones a continuación para el tipo de máscara que está utilizando. </br>
                 <ul class="collection">
-                    <li class="collection-item">o	Mascarilla con orejeras: Sostenga la máscara por las orejeras. Coloque un lazo alrededor de cada oreja.</li>
-                    <li class="collection-item">o	Mascarilla con lazos: lleve la mascarilla al nivel de su nariz y coloque los lazos sobre la coronilla de su cabeza y asegúrelos con un lazo.</li>
-                    <li class="collection-item">o	Mascarilla facial con bandas: Sostenga la máscara en su mano con la pieza nasal o la parte superior de la máscara en la punta de los dedos, permitiendo que las bandas para la cabeza cuelguen libremente debajo de las manos. Lleve la máscara al nivel de su nariz y tire de la correa superior sobre su cabeza para que descanse sobre la coronilla de su cabeza. Pase la correa inferior sobre su cabeza para que descanse en la nuca.</li>
+                    <li class="collection-item">o Mascarilla con orejeras: Sostenga la máscara por las orejeras. Coloque un lazo alrededor de cada oreja.</li>
+                    <li class="collection-item">o Mascarilla con lazos: lleve la mascarilla al nivel de su nariz y coloque los lazos sobre la coronilla de su cabeza y asegúrelos con un lazo.</li>
+                    <li class="collection-item">o Mascarilla facial con bandas: Sostenga la máscara en su mano con la pieza nasal o la parte superior de la máscara en la punta de los dedos, permitiendo que las bandas para la cabeza cuelguen libremente debajo de las manos. Lleve la máscara al nivel de su nariz y tire de la correa superior sobre su cabeza para que descanse sobre la coronilla de su cabeza. Pase la correa inferior sobre su cabeza para que descanse en la nuca.</li>
                 </ul>
             </li>
-            <li class="collection-item">6.	Moldea o pellizca el borde rígido a la forma de tu nariz.</li>
-            <li class="collection-item">7.	Si usa una mascarilla con lazos: luego tome los lazos inferiores, una en cada mano, y asegúrelas con un nudo en la nuca.</li>
-            <li class="collection-item">8.	Pasa la parte inferior de la máscara sobre tu boca y barbilla.</li>
+            <li class="collection-item">6. Moldea o pellizca el borde rígido a la forma de tu nariz.</li>
+            <li class="collection-item">7. Si usa una mascarilla con lazos: luego tome los lazos inferiores, una en cada mano, y asegúrelas con un nudo en la nuca.</li>
+            <li class="collection-item">8. Pasa la parte inferior de la máscara sobre tu boca y barbilla.</li>
         </ul>
     </div>
 </section>
 
+<div class="section"></div>
+<div class="container">
+    <h5>Cómo quitar una mascarilla</h5>
+    <ul class="collection">
+        <li class="collection-item">1.	Lávese las manos con agua y jabón o desinfectante para manos antes de tocar la mascarilla. Evite tocar la parte delantera de la mascarilla. La parte delantera de la máscara está contaminada. Toque únicamente las presillas / lazos / banda para las orejas. Siga las instrucciones a continuación para el tipo de máscara que está utilizando.</li>
+        <li class="collection-item">2.	Mascarilla con orejeras: Sostenga ambas presillas y levante y retire suavemente la máscara.</li>
+        <li class="collection-item">3.	Mascarilla con lazos: desate el lazo inferior primero, luego desate el lazo superior y tire de la máscara hacia afuera mientras se aflojan los lazos.</li>
+        <li class="collection-item">4.	Mascarilla con bandas: Primero levante la correa inferior sobre su cabeza y luego tire de la correa superior sobre su cabeza.</li>
+        <li class="collection-item">5.	Tira la máscara a la basura. Lávese las manos con agua y jabón o desinfectante de manos.</li>
+    </ul>
+</div>
 
 
 <div class="section"></div>
