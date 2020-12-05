@@ -11,6 +11,53 @@ include_once 'componentes/Header.php';
 
 <div class="section"></div>
 
+
+<!--POST DE LA NAVIDAD EN PANDEMIA-->
+<div class="row container">
+    <div class="col s12 m12">
+        <div class="card">
+            <div class="card-image">
+                <img style="height: 200px;" src="img/discapacidad2.jpg">
+            </div>
+            <div class="card-content" style="padding: 0">
+                <ul class="collapsible" style="margin: 0">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons blue-text text-darken-4">priority_high</i>Día internacional de las personas con discapacidad<i class="material-icons right">expand_more</i> </div>
+                        <div class="collapsible-body">
+                            <p>
+                                <a href="dia_discapacidad.html">Leer más.</a>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--POST DE LA NAVIDAD EN PANDEMIA-->
+<div class="row container">
+    <div class="col s12 m12">
+        <div class="card">
+            <div class="card-image">
+                <img style="height: 200px;" src="img/navidad2.jpg">
+            </div>
+            <div class="card-content" style="padding: 0">
+                <ul class="collapsible" style="margin: 0">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons blue-text text-darken-4">priority_high</i>Como mantener la temporada navideña libre de covid-19<i class="material-icons right">expand_more</i> </div>
+                        <div class="collapsible-body">
+                            <p>
+                                <a href="navideño_pandemia.html">Leer más.</a>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!--POST DEL DÍA INTERNACIONAL DEL NIÑO-->
 <div class="row container">
     <div class="col s12 m12">

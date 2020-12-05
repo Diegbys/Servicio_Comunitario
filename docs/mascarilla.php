@@ -76,6 +76,7 @@ include_once 'componentes/Header.php';
 <div class="section"></div>
 <div class="container">
     <h5>Cómo quitar una mascarilla</h5>
+    <div class="section"></div>
     <ul class="collection">
         <li class="collection-item">1.	Lávese las manos con agua y jabón o desinfectante para manos antes de tocar la mascarilla. Evite tocar la parte delantera de la mascarilla. La parte delantera de la máscara está contaminada. Toque únicamente las presillas / lazos / banda para las orejas. Siga las instrucciones a continuación para el tipo de máscara que está utilizando.</li>
         <li class="collection-item">2.	Mascarilla con orejeras: Sostenga ambas presillas y levante y retire suavemente la máscara.</li>

@@ -6,11 +6,11 @@ include_once 'componentes/Header.php';
     <div class="slider">
         <ul class="slides">
             <li>
-                <img src="img/ig1.jpg">
+                <img src="img/navidad2.jpg">
                 <!-- random image -->
                 <div class="caption left-align">
-                    <h3>Página de Instagram disponible</h3>
-                    <h5 class=" light grey-text text-lighten-3">No olvides visitar nuestra página de Instagram</h5>
+                    <h3>¡Llegó la navidad!</h3>
+                    <h5 class=" light grey-text text-lighten-3">Ingresa a la sección de posts para leer nuestras recomendaciones durante la pandemia.</h5>
                 </div>
             </li>
             <li>
